@@ -9,9 +9,9 @@ Product.belongsTo(Category);
 // Categories have many Products
 Category.hasMany(Product);
 // Products belongToMany Tags (through ProductTag)
-Product.belongToMany(Tag, { through: 'ProductTag' });
+Product.belongsToMany(Tag, { through: 'ProductTag' });
 // Tags belongToMany Products (through ProductTag)
-Tag.belongToMany(Product, { through: 'ProductTag' });
+Tag.belongsToMany(Product, { through: 'ProductTag' });
 
 module.exports = {
   Product,
