@@ -18,7 +18,7 @@ You will also need to split the terminal to run mySQL. In order to do that, use 
 You will need a mySQL user for this back end. If you don't already have one, go to [this link here](https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-grant-permissions-in-mysql) to create a new user.
 ## Usage
 
-The first thing you should do is run the command `scource C:\Users\Peter Earls\bootcamp\challenge-thirteen\mod-repo-13\db\schema.sql` in the mysql terminal. Then, in the bash terminal, run `npm run seed` to "seed" in the information for usage.
+The first thing you should do is run the command `scource db\schema.sql` in the mysql terminal. Then, in the bash terminal, run `npm run seed` to "seed" in the information for usage.
 
 To actually use the back end, see [this video here](https://drive.google.com/file/d/1j1CPDg3MYn4cTlUgMJfFNPQPs3KVt6xO/view) for a simple walkthrough.
 ## Credits
