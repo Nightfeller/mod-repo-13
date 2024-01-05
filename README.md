@@ -3,6 +3,7 @@
 ## Description
 
 This is a back end for E-commerce transactions, allowing you to preform GET, POST, PUT, and DELETE requests on the JSON files.
+
 ## Installation
 
 To start, use ``` Ctrl + Shift + ` ``` to open up the Integrated Terminal. If you can't find where the backtick symbol is on your keyboard, it's usually to the left of the *1* key and above the *Tab* key.
